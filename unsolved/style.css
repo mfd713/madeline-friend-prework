@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  line-height: 1.5;
+  text-transform: uppercase;
+  background-color: darkcyan;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+
+h1 {
+  font-size: 75px;
+}
+
+div {
+  text-align: center;
+}
+#top-left-corner{
+  font-weight: bold;
+  text-align: start;
+  padding-bottom: 13%;
+}
+
+#fancy{
+  color: black;
+  font-size: 11px;
+
+}
+#digi-heaven{
+  font-weight: bold;
+}
+
+#quote {
+  border: aliceblue solid;
+  display: inline;
+  padding: 15px;
+}
+
+
+
