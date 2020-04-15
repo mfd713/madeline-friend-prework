@@ -1,40 +1,32 @@
 body {
-  margin: 0;
-  line-height: 1.5;
   text-transform: uppercase;
   background-color: #79b9c6;
   font-family: sans-serif;
   color: aliceblue;
-}
-
-h1 {
-  font-size: 300%;
-}
-
-div {
-  text-align: center;
-}
-#top-left-corner{
   font-weight: bold;
-  text-align: start;
-  padding-bottom: 11%;
+}
+
+.jumbotron{
+  background-color: #79b9c6;
+  padding: 15px;
+}
+
+.display-4{
+  font-weight: bold;
+}
+
+.btn-outline-info{
+  border: aliceblue solid;
+  color: aliceblue;
+}
+div{
+  text-align: center;
 }
 
 #fancy{
+  margin-top: 100px;
+  font-weight: normal;
   color: black;
-  font-size: 70%;
-
-}
-#digi-heaven{
-  font-weight: bold;
-  padding-bottom: 1%;
-}
-
-#quote {
-  border: aliceblue solid 1.5px;
-  display: inline;
-  padding: 0.6%;
-  font-size: 55%;
 }
 
 
