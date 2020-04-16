@@ -9,6 +9,7 @@ body {
 .jumbotron{
   background-color: #79b9c6;
   padding: 15px;
+  margin-bottom: 15px;
 }
 
 .display-4{
@@ -24,10 +25,12 @@ div{
 }
 
 #fancy{
-  margin-top: 100px;
+  margin-top: 90px;
   font-weight: normal;
   color: black;
+  font-size: small;
 }
+
 
 
 
