@@ -36,6 +36,11 @@ p{
     clear: none;
     line-height: 2;
 }
+
+.col-sm-4{
+    padding-left: 10px;
+    padding-right: 10px;
+}
 #maincontent{
     background-color: #ffffff;
     border: #dddddd 1px solid;
@@ -45,8 +50,10 @@ p{
     padding-bottom: 20px;
 }
 img{
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 #bioPic{
     height: 140px;
@@ -55,22 +62,27 @@ img{
     margin-right: 10px;
 }
 
-#copyright{
-    margin: 20px 0px 0px 0px;
-}
+
 footer{
    background-color: #666666;
-   position: fixed;
-   left: 0;
+   position: absolute;
    bottom: 0;
    width: 100%;
    text-align: center;
-   color: #ffffff;
    border-top: 5px solid #4aaaa5;
+   padding-top: 15px;
 }
 
 .btn{
     background-color: #4aaaa5;
     color: #ffffff;
     border-radius: 0;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+@media screen and (max-width: 576px){
+    #maincontent{
+        width: 100%;
+    }
 }
