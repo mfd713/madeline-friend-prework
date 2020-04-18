@@ -71,6 +71,7 @@ footer{
    text-align: center;
    border-top: 5px solid #4aaaa5;
    padding-top: 15px;
+   clear: both;
 }
 
 .btn{
@@ -84,5 +85,9 @@ footer{
 @media screen and (max-width: 576px){
     #maincontent{
         width: 100%;
+    }
+
+    img {
+        width: 200px
     }
 }
