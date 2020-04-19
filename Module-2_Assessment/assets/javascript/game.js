@@ -24,7 +24,7 @@ const startGame = function (event){
 }
 
 const checkLetters = function (event){
-    let key = event.key;
+    let key = event.key.toLowerCase();
     if(guessedLetters.includes(key))
         return;
     if(currentWord.includes(key)){
