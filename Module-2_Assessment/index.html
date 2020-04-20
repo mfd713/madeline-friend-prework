@@ -10,15 +10,36 @@
 </head>
 <body>
     <main class="container">
-        <h1>Press any key to get started!</h1>
-        <div id="word"></div>
-        <div id="guesses"></div>
-        <div>This will list wrong letters
-            <p id="wrong"></p>
-        </div>
-        <div>
-            <p>This will list win number</p>
-            <p id="wins"></p>    
+        <div class="container" id="mainView">
+            <h1>Welcome to the Glee Word Guess Game</h1>
+            <p>Press any key to get started!</p>
+            <div class="jumbotron">
+                <h1 id="word"></h1>
+            </div>
+            <div class="card">
+                <div class="card-header" id="guessCard">
+                    <h4>Guesses Remaining</h4>
+                </div>
+                <div class="card-body">
+                    <h5 id="guesses"></h5>
+                </div>
+            </div>
+            <div class="card"> 
+                <div class="card-header" id="wrongCard">
+                    <h4>Letters Alrady Guessed</h4>
+                </div>
+                <div class="card-body">
+                    <h5 id="wrong"></h5>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header"  id="winsCard">
+                    <h4>Number of Wins</h4>
+                </div>
+                <div class="card-body">
+                    <h5 id="wins"></h5>
+                </div>
+            </div>             
         </div>    
     </main>
     

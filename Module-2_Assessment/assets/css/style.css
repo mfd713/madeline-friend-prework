@@ -1,4 +1,22 @@
 body{
     font-family: 'Questrial', sans-serif;
     text-align: center;
+    background-image: url(../images/backgroundFaces.jpg);
+}
+
+#mainView{
+    background-color: #ffffff;
+    border: solid black 1px
+}
+
+#guessCard{
+    background-color: #d4efff;
+}
+
+#wrongCard{
+    background-color: #ffd4d4;
+}
+
+#winsCard{
+    background-color: #d7ffcf;
 }
